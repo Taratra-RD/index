@@ -1,0 +1,54 @@
+body
+{
+    background-color : beige;
+    height: 3000px;
+   
+}
+.box
+{
+    background-color: cyan;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.box :first-child {
+    align-self: center;
+}
+.rectangle1
+{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: red;
+    float: right;
+}
+.rectangle2
+{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: snow;
+    float: top;
+}
+.rectangle3
+{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: navy;
+    float: center;
+}
+.triangle
+{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: navy;
+    float: center;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+}
